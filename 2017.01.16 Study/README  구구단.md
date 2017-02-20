@@ -1,7 +1,15 @@
-##ios 개발자 과정
-[구구단]()
+
+구구단
+
 
 ```objc
+
+for (NSInteger i = 2; i < 10; i++) {
+        [Gugudan gugudan:i];
+    }
+
++ (void)gugudan:(NSInteger)dan;
+
 + (void)gugudan:(NSInteger)dan{
    NSString *reslut = @"";
     for (NSInteger c = 2; c < 10; c++) {
@@ -9,5 +17,4 @@
         reslut = [reslut stringByAppendingString:temp];
     }NSLog(@" %@ ",reslut);
 }
-
 ```

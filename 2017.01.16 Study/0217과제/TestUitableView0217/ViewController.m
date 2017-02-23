@@ -88,10 +88,7 @@
             break;
 
         default:
-//            [cell setDataWithImagename:[NSString stringWithFormat:@"%ld.png", indexPath.row+1]
-//                              mainText:[NSString stringWithFormat:@"%@", [self.maintextarr objectAtIndex:indexPath.row]]
-//                              asubText:[NSString stringWithFormat:@"%@", [self.asubtextarr objectAtIndex:indexPath.row]]
-//                              bsubText:[NSString stringWithFormat:@"%@", [self.bsubtextarr objectAtIndex:indexPath.row]]];
+            
             break;
     }
     

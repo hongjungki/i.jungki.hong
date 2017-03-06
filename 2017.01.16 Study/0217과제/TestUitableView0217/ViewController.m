@@ -54,7 +54,7 @@
     }
 }
 
-- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath;
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     MyCustomTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"jk"];
     if (cell == nil) {
@@ -166,6 +166,7 @@
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView{
     return 10;
 }
+
 -(BOOL)prefersStatusBarHidden{
     return NO;
 }
